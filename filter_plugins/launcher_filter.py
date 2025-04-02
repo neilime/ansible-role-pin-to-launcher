@@ -1,7 +1,7 @@
-from jinja2.filters import contextfilter
+from jinja2.filters import pass_context
 
 
-@contextfilter
+@pass_context
 def to_gnome_items(context, pin_to_launcher_favorites):
     '''
     returns the Gnome launcher items
